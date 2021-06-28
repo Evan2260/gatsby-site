@@ -129,6 +129,12 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+    <h1>Everything you see here is being rendered via the index.js file within the pages folder.</h1>
+    <br />
+      <h2>
+        It is also part of the IndexPage function.
+      </h2>
+      <br />
       <title>Home Page</title>
       <h1 style={headingStyles}>
         Congratulations
