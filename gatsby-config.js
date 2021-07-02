@@ -6,5 +6,6 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-image",
   ],
 };

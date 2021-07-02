@@ -1,6 +1,6 @@
 import * as React from "react"
-import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
 // import { StaticImage } from 'gatsby-plugin-image'
 
 // https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-image/
@@ -136,6 +136,10 @@ const IndexPage = () => {
       <Layout pageTitle="Home Page">
         <h1>nvm install 14.17.1</h1>
           <p>This is the Home page</p>
+        <StaticImage
+          alt="Patriots Logo"
+          src="http://evensondesign.com/wp-content/uploads/2013/04/patriots_a_logo_800x300.jpg"
+        />
       </Layout>
   )
 };
