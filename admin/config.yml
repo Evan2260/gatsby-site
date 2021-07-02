@@ -8,6 +8,6 @@ backend:
       files:
         - label: "landing page"
           name: "landing page"
-          file: ""
+          
       fields:
         repo: "Evan2260/gatsby-site"
