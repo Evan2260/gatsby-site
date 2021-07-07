@@ -21,3 +21,9 @@
 .nav-link-text {
   color: black;
 }
+
+.site-title {
+  font-size: 100rem;
+  color: pink;
+  font-weight: 700;
+}

@@ -1,0 +1,11 @@
+nvm install 14.17.1 in terminal before starting server.
+
+Questions:
+  1. When using the hooks and graphQL data, I can not get text to render when using the 'title' html/JSX tag. However, when using the 'header tag' it renders. Why is this? The Gatsby tutorial shows to use title, but in an expanded purple window above where it is first shown shows an example running header.
+  https://www.gatsbyjs.com/docs/tutorial/part-4/
+
+  2. What is the 'children' hook containing exactly? It is rendering the page you are currently on. (Is it a property of the useStaticQuery method?)
+  Answer: 'children' and 'pageTitle' are props that have been destructured. However, this answer raises another Question: Where can I see these props being taken in? I have tried debugging and seeing but there doesn't seem to be any other props besides those two when using the structured props argument in the Layout component/function.
+  https://www.gatsbyjs.com/docs/tutorial/part-2/
+
+  3. importing my site-title css class into my layout component isn't rendering its styling when used on the h1 or p tags. However, all of my other css classes are working wherever I plug them in. Why is this?
